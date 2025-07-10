@@ -1,0 +1,12 @@
+name: First WorkFlow in the Repo
+on: 
+  push: 
+    branches:
+      - main
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Welcome Msg
+        run: echo "welcome from first job"
+  
