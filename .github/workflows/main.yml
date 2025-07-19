@@ -13,6 +13,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4.2.2
       
-      - name: list repo fils
+      - name: list repo files
         run: ls -la
   
