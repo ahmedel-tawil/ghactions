@@ -1,2 +1,0 @@
-# ghactions
-Just study
