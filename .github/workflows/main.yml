@@ -9,4 +9,10 @@ jobs:
     steps:
       - name: Print Welcome Msg
         run: echo "welcome from first job"
+
+      - name: Checkout Repo
+        uses: actions/checkout@v4.2.2
+      
+      - name: list repo fils
+        run: ls -la
   
