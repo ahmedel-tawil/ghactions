@@ -9,3 +9,10 @@ jobs:
     steps:
       -  name: print incident details
          run: echo "Incident Report"
+
+
+#curl -X POST \
+#-H "Authorization: token $GITHUB_PAT" \
+#-H "Accept: application/vnd.github.v3+json" \
+#https://api.github.com/repos/ahmedel-tawil/ghactions/dispatches \
+#-d '{"event_type": "incident_report"}'
